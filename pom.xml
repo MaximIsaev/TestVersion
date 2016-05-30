@@ -10,7 +10,7 @@
     <name>TestJenkinsApp</name>
 
     <build>
-        <finalName>${project.name}.ver.${BUILD_NUMBER}</finalName>
+        <finalName>${project.name}.ver.${BUILD_NUMBER}.${project.build}</finalName>
     </build>
     <!--<dependencies>-->
         <!--<dependency>-->
